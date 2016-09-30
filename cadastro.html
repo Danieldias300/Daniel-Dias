@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estiloform.css">
+    <title>Página de Cadastro</title>
+</head>
+<!--Esse é um cadastro de todos aqueles que se lembram da derrota do Brasil 7x1 Alemanha-->
+<body>
+    <nav id="form">
+        <form id="formulario" autocomplete="off">
+            <fieldset>
+                 <legend>Formulário</legend>
+                                <label>Nome:</label><input class="campo_nome" type="text" value="digite o nome aqui" size="50px"><br>
+                                <label>Email*:</label><input class="campo_email" type="email" value="digite o email" size="50px"><br>
+                                <label>Sexo:</label><input class="campo_sexo" value="Feminino" type="radio">
+                                <label>Feminino</label><input class="campo_sexo" value="Masculino" type="radio">
+                                <label>Masculino</label><br>
+                                <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+                                <input class="btn_submit" type="submit" value="Salvar">
+                                <label>Clique para salvar</label><br>
+            </fieldset>
+
+        </form>
+
+    </nav>
+    <button onclick="funcao1()">Enviar</button>
+     
+    <p id="demo"></p>
+     
+    <script>
+        function funcao1()
+        {
+            var x;
+            var r=confirm("Dados Enviados!");
+            if (r==true)
+            {
+                x="Dados Enviados!";
+            }
+            else
+            {
+                x="Dados Enviados!";
+            }
+            document.getElementById("praticando").innerHTML=x;
+        }
+    </script>
+
+
+</body>
+</html>

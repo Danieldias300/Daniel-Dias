@@ -1,0 +1,13 @@
+#form, fieldset{
+    color: black;
+}
+#form, legend{
+    background-color: #666666;
+    color: azure;
+}
+#form, label{
+    color: aliceblue;
+}
+#form, input{
+
+}

@@ -1,0 +1,98 @@
+#Menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:gray;
+    list-style:none;
+    border-bottom: 5px solid #b51a08;
+}
+#Menu ul li{
+    display: inline-block;
+    text-align: center;
+}
+#Menu ul li a {
+    padding: 2px 8px;
+    display: inline-block;
+    text-align: center;
+    /* visual do link */
+    background-color:white;
+    color:black;
+    text-decoration: blink;
+    border-bottom:5px solid #ff000e;
+    font-family: Verdana;
+    font-style: normal;
+}
+#Menu ul li a:hover {
+    background-color: black;
+    color: white;
+    border-bottom:5px solid white;
+}
+
+body h1{
+    text-align: center;
+    border-bottom: 5px solid #ff000e;
+    color: #000000;
+    display: inherit;
+    background-color:gray;
+    font-family: "Arial Black";
+    font-style: inherit;
+
+ }
+body{
+    background-image: url("http://cdn.wallpapersafari.com/12/16/zAMCHE.jpg");
+
+}
+body p{
+    color: white;
+    font-family: "Comic Sans MS";
+}
+header, nav #Menu{
+    text-align: center;
+    background: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+header, body{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    font-family:"Comic Sans MS";
+    font-size: large;
+}
+
+body h4{
+    display:inline-block;
+    color: black;
+}
+body h4 a{
+    color: black;
+    margin: 30px 0;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 5px solid #ff000e;
+    background-color: gray;
+    font-family: "Comic Sans MS";
+    position: relative;
+}
+body h4 a:hover{
+    background-color: black;
+    color: White;
+    font-family: "Comic Sans MS";
+    border-bottom: 5px solid white;
+}
+body p, .largura-colunas{
+    -moz-column-width: 800px;
+    -moz-column-gap: 30px;
+    -moz-column-rule: 1px solid #666;
+    -webkit-column-width: 100px;
+    -webkit-column-gap: 30px;
+    -webkit-column-rule: 1px solid #666;
+}
+
+.numero-colunas{
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -moz-column-rule: 1px solid #ccc;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+}
